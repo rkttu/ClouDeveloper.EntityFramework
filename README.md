@@ -87,11 +87,11 @@ namespace TestingDemo {
         private Lazy<GenericRepositoryAsync<Blog>> _blogRepositoryFactory;
         private Lazy<GenericRepositoryAsync<Post>> _postRepositoryFactory;
 
-        public GenericRepository<Blog> BlogRepository {
+        public GenericRepositoryAsync<Blog> BlogRepository {
             get { return this._blogRepositoryFactory.Value; }
         }
 
-        public GenericRepository<Post> PostRepository {
+        public GenericRepositoryAsync<Post> PostRepository {
             get { return this._postRepositoryFactory.Value; }
         }
     }
