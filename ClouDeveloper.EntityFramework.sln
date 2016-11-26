@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClouDeveloper.EntityFramework", "NETFX4_CLIENT\ClouDeveloper.EntityFramework.csproj", "{06E58713-4475-4AA0-9A8B-26177E7C02E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Framework 4 (Client Profile)", ".NET Framework 4 (Client Profile)", "{53FA7337-5B69-4144-A7CF-31A8B9C6DF84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Framework 4.5", ".NET Framework 4.5", "{59DC24F3-73B3-4227-A198-C2A798EF977E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClouDeveloper.EntityFramework", "NETFX45\ClouDeveloper.EntityFramework.csproj", "{0C1A20F4-25F5-4188-A5A3-75D8C47CF596}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{44277D1D-8649-40AB-A18E-9D74319C4233}"
+	ProjectSection(SolutionItems) = preProject
+		Build.cmd = Build.cmd
+		Package.nuspec = Package.nuspec
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06E58713-4475-4AA0-9A8B-26177E7C02E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E58713-4475-4AA0-9A8B-26177E7C02E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E58713-4475-4AA0-9A8B-26177E7C02E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E58713-4475-4AA0-9A8B-26177E7C02E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C1A20F4-25F5-4188-A5A3-75D8C47CF596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1A20F4-25F5-4188-A5A3-75D8C47CF596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1A20F4-25F5-4188-A5A3-75D8C47CF596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1A20F4-25F5-4188-A5A3-75D8C47CF596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06E58713-4475-4AA0-9A8B-26177E7C02E9} = {53FA7337-5B69-4144-A7CF-31A8B9C6DF84}
+		{0C1A20F4-25F5-4188-A5A3-75D8C47CF596} = {59DC24F3-73B3-4227-A198-C2A798EF977E}
+	EndGlobalSection
+EndGlobal

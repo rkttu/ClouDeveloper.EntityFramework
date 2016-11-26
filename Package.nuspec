@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ClouDeveloper.EntityFramework</id>
+    <version>1.0.0</version>
+    <authors>ClouDeveloper</authors>
+    <owners>ClouDeveloper</owners>
+    <licenseUrl>http://www.rkttu.com</licenseUrl>
+    <projectUrl>http://www.rkttu.com</projectUrl>
+    <iconUrl>http://www.rkttu.com/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This component provides repository pattern helper which designed for Entity Framework.</description>
+    <copyright>Copyright 2016 ClouDeveloper, All rights reserved.</copyright>
+    <tags>ClouDeveloper EntityFramework</tags>
+    <dependencies>
+      <dependency id="EntityFramework" version="6.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="NETFX4_CLIENT\bin\Release\ClouDeveloper.EntityFramework.dll" target="lib\net40-client\ClouDeveloper.EntityFramework.dll" />
+    <file src="NETFX4_CLIENT\bin\Release\ClouDeveloper.EntityFramework.pdb" target="lib\net40-client\ClouDeveloper.EntityFramework.pdb" />
+    <file src="NETFX4_CLIENT\bin\Release\ClouDeveloper.EntityFramework.xml" target="lib\net40-client\ClouDeveloper.EntityFramework.xml" />
+    
+    <file src="NETFX45\bin\Release\ClouDeveloper.EntityFramework.dll" target="lib\net45\ClouDeveloper.EntityFramework.dll" />
+    <file src="NETFX45\bin\Release\ClouDeveloper.EntityFramework.pdb" target="lib\net45\ClouDeveloper.EntityFramework.pdb" />
+    <file src="NETFX45\bin\Release\ClouDeveloper.EntityFramework.xml" target="lib\net45\ClouDeveloper.EntityFramework.xml" />
+  </files>
+</package>
